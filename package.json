@@ -1,0 +1,16 @@
+{
+  "name": "codewars_js_challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test  "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0"
+  }
+}
