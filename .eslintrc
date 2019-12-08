@@ -9,6 +9,5 @@
         "no-multi-spaces": "error",
         "no-irregular-whitespace": "error",
         "no-multiple-empty-lines": "error",
-        "indent": ["error", 2]
     }
 }
