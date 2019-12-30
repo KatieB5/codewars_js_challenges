@@ -17,5 +17,5 @@ describe("solution", () => {
 
         const actual1 = solution(20);
         expect(actual1).toBe(78);
-    })
+    });
 });
