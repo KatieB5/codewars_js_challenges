@@ -6,12 +6,13 @@ All functions have been developed with full TDD using the Jest testing library.
 
 ## Challenge descriptions
 
-###bitCounting
+### bitCounting
+
 Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
 
 Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 
-###geometricProgressionSequence
+### geometricProgressionSequence
 
 In your class, you have started lessons about geometric progression. Since you are also a programmer, you have decided to write a function that will print first n elements of the sequence with the given constant r and first element a.
 
@@ -22,7 +23,7 @@ geometricSequenceElements(2, 3, 5) == '2, 6, 18, 54, 162'
 
 More info: https://en.wikipedia.org/wiki/Geometric_progression
 
-###multiplesOf3and5
+### multiplesOf3and5
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
@@ -30,7 +31,7 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 
 Note: If the number is a multiple of both 3 and 5, only count it once.
 
-###pigIt
+### pigIt
 
 Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
 
@@ -38,7 +39,7 @@ Examples
 pigIt('Pig latin is cool'); igPay atinlay siay oolcay
 pigIt('Hello world !'); elloHay orldway !
 
-###vaccineNation
+### vaccineNation
 You have been put in charge of administrating vaccinations for children in your local area. Write a function that will generate a list of vaccines for each child presented for vaccination, based on the child's age and vaccination history, and the month of the year.
 
 - The function takes three parameters: age, status and month
