@@ -40,6 +40,7 @@ pigIt('Pig latin is cool'); igPay atinlay siay oolcay
 pigIt('Hello world !'); elloHay orldway !
 
 ### vaccineNation
+
 You have been put in charge of administrating vaccinations for children in your local area. Write a function that will generate a list of vaccines for each child presented for vaccination, based on the child's age and vaccination history, and the month of the year.
 
 - The function takes three parameters: age, status and month
@@ -57,6 +58,23 @@ output     ['fiveInOne', 'hibMenC', 'measlesMumpsRubella', 'meningitisB', 'pneum
 
 input     ('40 months', '12 months', 'october') 
 output    ['hibMenC', 'measlesMumpsRubella', 'meningitisB', 'offer fluVaccine', 'preSchoolBooster']
+
+### equalSidesOfAnArray
+
+You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
+
+For example:
+
+Let's say you are given the array {1,2,3,4,3,2,1}: Your function will return the index 3, because at the 3rd position of the array, the sum of left side of the index ({1,2,3}) and the sum of the right side of the index ({3,2,1}) both equal 6.
+
+Input:
+An integer array of length 0 < arr < 1000. The numbers in the array can be any integer positive or negative.
+
+Output:
+The lowest index N where the side to the left of N is equal to the side to the right of N. If you do not find an index that fits these rules, then you will return -1.
+
+Note:
+If you are given an array with multiple answers, return the lowest correct index.
 
 ## Running the tests
 
