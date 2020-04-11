@@ -76,6 +76,13 @@ The lowest index N where the side to the left of N is equal to the side to the r
 Note:
 If you are given an array with multiple answers, return the lowest correct index.
 
+### breakCamelCase
+
+Complete the solution so that the function will break up camel casing, using a space between words.
+
+Example
+solution("camelCasing")  ==  "camel Casing"
+
 ## Running the tests
 
 'Node.js' must be installed if not already.
