@@ -107,6 +107,15 @@ Given string s = "444996, 699990, 666690, 096904, 600644, 640646, 606469, 409694
 
 In a set the n substrings will have the same length ( > 0 ).
 
+### greatestProduct
+
+Complete the greatestProduct method so that it'll find the greatest product of five consecutive digits in the given string of digits.
+
+For example:
+
+greatestProduct("123834539327238239583") // should return 3240
+The input string always has more than five digits.
+
 
 ## Running the tests
 
