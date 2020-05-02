@@ -150,6 +150,15 @@ Complete the function so that it returns an array of integer representing the pa
 
 (Also, there is no reason to test for edge cases: the input to your function will always be valid for this kata.)
 
+### iNeedMoreSpeed
+
+Write a function that will take in any array and reverse it.
+
+NOTES:
+
+- Array should be reversed in place! (no need to return it)
+- Usual builtins have been deactivated. Don't count on them.
+- You'll have to do it fast enough, so think about performances
 
 
 ## Running the tests
